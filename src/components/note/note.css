@@ -1,0 +1,50 @@
+.note {
+    height: 250px;
+    width: 250px;
+    background: #eae365;
+    margin: 16px;
+    display: inline-block;
+    border: none;
+    border-radius: 10px;
+}
+.textBox{
+    background: transparent;
+    width: inherit;
+    height: 200px;
+    resize: none;
+    border: none;
+    font-size: large;
+    padding: 5px;
+
+}
+.noteButton {
+    background: rgba(234, 70, 54, 0.44);
+    border: none;
+    height: 30px;
+    width: 100px;
+}
+
+.addButton {
+    height: 250px;
+    width: 250px;
+    display: inline-block;
+    margin:16px;
+    padding: 25px;
+    background: rgba(234, 93, 21, 0.81);
+    font-size: 200px;
+    font-family: fantasy;
+    color: white;
+    border: none;
+    border-radius: 10px;
+
+}
+.addButton:hover{
+    background: rgba(234,93,21,0.5);
+    color: rgba(66,65,53,0.93);
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
